@@ -24,7 +24,8 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 
 
-        <mapping class="OV.Domein.Adres"/>
+        <mapping class="OV.Domein.OVChipkaart"/>
         <mapping class="OV.Domein.Reiziger"/>
+        <mapping class="OV.Domein.Product"/>
     </session-factory>
 </hibernate-configuration>
